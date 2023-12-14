@@ -13,9 +13,5 @@ Web dapat diakses dengan url http://127.0.0.1:2000
 
 Dataset Project ini menggunakan dataset rock paper scissor dengan jumlah data sebanyak 2520 file. Load image menggunakan image_dataset_from_directory dari pustaka tensorflow dengan pembagian train validation 80% dan test validation 20% dengan seed 123. Dataset menggunakan label categorical sehingga label dalam bentuk one hot encoding. Image size menggunakan (224, 244) dan batch size menggunkan 128
 
-# Model Summary Model 
-![Alt Text](URL_GAMBAR)
 
-
-Train Train data dilakukan dalam 10 epoch dengan optimizer Adam dengan learning rate 0.01
 
